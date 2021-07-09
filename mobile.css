@@ -342,6 +342,14 @@
         width: 100% !important;
         max-width: none !important;
     }
+
+    .topMenu__logo__img {
+        width: 70px;
+    }
+
+    #o-firmie {
+        padding-top: 100px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -394,5 +402,17 @@
 
     .pageSection--flex {
         margin: 40px 0;
+    }
+
+    .companyName {
+        font-size: 17px;
+    }
+
+    .contactSection__icon {
+        height: 50px;
+    }
+
+    .contactSection__header span {
+        font-size: 14px;
     }
 }

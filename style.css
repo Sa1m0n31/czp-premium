@@ -58,7 +58,7 @@ ul {
 
 .topBar__header {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     margin: 5px 0;
     padding: 0 30px 0 0;
@@ -80,6 +80,16 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+}
+
+.topMenu__logo {
+    width: 250px;
+    transition: .4s all ease-in-out;
 }
 
 .topMenu__list {
@@ -107,15 +117,11 @@ ul {
     padding: 0 50px;
     font-weight: 700;
     text-transform: uppercase;
-    transition: .2s all;
-}
-
-.topMenu__list__item:hover {
-    border-bottom: 1px solid #CE2323 !important;
+    transition: .3s all;
 }
 
 .topMenu__list__item:hover .topMenu__list__link {
-    color: #CE2323;
+    color: #CE2323 !important;
 }
 
 /* Landing page */
@@ -129,7 +135,7 @@ ul {
 }
 
 .landing__img {
-    width: clamp(300px, 1600px, 90vw);
+    width: clamp(300px, 1500px, 90vw);
 }
 
 .landing__content {
@@ -160,7 +166,11 @@ ul {
 /* First section */
 .section {
     padding: var(--padding);
-    padding-top: 80px;
+    padding-top: 110px;
+}
+
+#o-firmie {
+    padding-top: 150px;
 }
 
 .section__header {
@@ -560,4 +570,34 @@ ul {
 .pageSection--fixedHeight > * {
     max-height: 100%;
     max-width: 50%;
+}
+
+/* Contact */
+.companyName {
+    text-align: center;
+    font-size: 21px;
+}
+
+.contactSection {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactSection__icon {
+    height: 100px;
+    width: auto;
+}
+
+.contactSection__header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contactSection__header span {
+    display: block;
+    text-align: center;
+    font-size: 17px;
 }
