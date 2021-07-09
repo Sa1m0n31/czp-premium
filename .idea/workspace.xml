@@ -20,13 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda02b07-73ef-4dfe-a302-e1401b40b84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/jumbo-rolle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/papier-makulatura.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reczniki-kuchenne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oferta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jumbo-rolle-brodnica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jumbo-rolle-torun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-dla-pisklat-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-dla-pisklat-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-dla-pisklat-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-dla-pisklat-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-makulaturowy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-makulaturowy-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-toaletowy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier-toaletowy-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reczniki-kuchenne-brodnica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reczniki-kuchenne-golub-dobrzyn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reczniki-kuchenne-lipno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reczniki-zz-biale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reczniki-zz-szare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jumbo-rolle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/papier-dla-pisklat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/papier-makulaturowy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/papier-toaletowy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reczniki-kuchenne.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reczniki-zz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oferta.html" beforeDir="false" afterPath="$PROJECT_DIR$/oferta.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +80,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\img" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp" />
     </key>
   </component>
   <component name="RunManager">
@@ -80,7 +98,8 @@
       <updated>1625044439477</updated>
       <workItem from="1625044440809" duration="12095000" />
       <workItem from="1625737369988" duration="42000" />
-      <workItem from="1625786749623" duration="2563000" />
+      <workItem from="1625786749623" duration="3369000" />
+      <workItem from="1625825287330" duration="6008000" />
     </task>
     <servers />
   </component>
@@ -97,6 +116,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625044890593">
@@ -171,9 +191,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625044719072" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625068755083">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625841027418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625068755083" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625841027418" />
   </component>
 </project>

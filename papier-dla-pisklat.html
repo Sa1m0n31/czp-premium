@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Papier dla piskląt</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+</head>
+<body>
+<div class="container-fluid">
+    <!-- HEADER -->
+    <header class="topBar d-none d-md-flex">
+        <h3 class="topBar__header">
+            CZP Premium Białkowo - ręczniki ZZ, papier dla piskląt
+        </h3>
+        <h3 class="topBar__header d-none d-xl-block">
+            Białkowo 39A, 87-400 Golub-Dobrzyń
+        </h3>
+        <h3 class="topBar__header d-none d-lg-block">
+            tel. 607 042 741, biuro@czp-premium.pl
+        </h3>
+        <h3 class="topBar__header">
+            Ręczniki ZZ, papier makulaturowy, papier toaletowy, papier do piskląt
+        </h3>
+    </header>
+    <menu class="topMenu">
+        <a class="topMenu__logo" href="./index.html">
+            <img class="topMenu__logo__img" src="./img/czp-logo.png" alt="czp-bialkowo" />
+        </a>
+
+        <ul class="topMenu__list d-none d-md-flex">
+            <li class="topMenu__list__item">
+                <a class="topMenu__list__link" href="#">
+                    Strona główna
+                </a>
+            </li>
+            <li class="topMenu__list__item">
+                <a class="topMenu__list__link" href="#o-firmie">
+                    O firmie
+                </a>
+            </li>
+            <li class="topMenu__list__item">
+                <a class="topMenu__list__link" href="./oferta.html">
+                    Oferta
+                </a>
+            </li>
+            <li class="topMenu__list__item">
+                <a class="topMenu__list__link" href="#">
+                    Kontakt
+                </a>
+            </li>
+        </ul>
+
+        <menu class="topMenu__mobileMenu d-md-none">
+            <button class="topMenu__mobileMenu__close" onclick="closeMenu()">
+                <img class="topMenu__mobileMenu__close__img" src="./img/close.png" alt="zamknij" />
+            </button>
+
+            <a class="topMenu__mobileMenu__logo" href="#">
+                <img class="topMenu__mobileMenu__logo__img" src="./img/czp-logo.png" alt="logo" />
+            </a>
+            <ul class="topMenu__mobileMenu__list">
+                <li class="topMenu__list__item">
+                    <a class="topMenu__list__link" href="#">
+                        Strona główna
+                    </a>
+                </li>
+                <li class="topMenu__list__item">
+                    <a class="topMenu__list__link" href="#o-firmie">
+                        O firmie
+                    </a>
+                </li>
+                <li class="topMenu__list__item">
+                    <a class="topMenu__list__link" href="#">
+                        Oferta
+                    </a>
+                </li>
+                <li class="topMenu__list__item">
+                    <a class="topMenu__list__link" href="#">
+                        Kontakt
+                    </a>
+                </li>
+            </ul>
+        </menu>
+
+        <button class="topMenu__btn d-block d-md-none" onclick="openMenu()">
+            <img class="topMenu__btn__img" src="./img/menu.png" alt="menu" />
+        </button>
+    </menu>
+
+    <!-- MAIN -->
+    <main class="page">
+        <h1 class="pageHeader pageHeader--left">
+            Papier dla piskląt
+        </h1>
+
+        <section class="pageSection__frame w-100">
+            <h2 class="pageSection__frame__header">
+                Czym jest papier dla piskląt?
+            </h2>
+            <p class="pageSection__frame__text">
+                Papier dla piskląt cieszy się coraz większą popularnością wśród hodowców drobiu. Nie bez przyczyny <b>jest on używany w Polsce i całej Europie</b>. Posiadamy duże doświadczenie w produkcji papieru do piskląt. Od kilku lat z sukcesami <b>zaopatrujemy fermy drobiu w nasz papier</b>. Możemy zaopatrzyć naszych klientów w papier o standardowej lub podwyższonej wytrzymałości. Oferujemy rolki w kolorze zielonym i szarym, ale inne kolory są możliwe do uzgodnienia. Prowadzimy również sprzedaż papieru żywicowanego.
+            </p>
+            <p class="pageSection__frame__text mt-1">
+                Podczas produkcji papieru dla piskląt dbamy o zachowanie wysokich standardów produkcji, tak jak ma to miejsce w przypadku produkcji papieru toaletowego czy ręczników papierowych. Dzięki temu hodowcy drobiu mogą być pewni, że papier jest bezpieczny i dobrej jakości. Zapewniamy, że nasz papier jest lekki i łatwy do rozłożenia. Zachęcamy do współpracy hodowców drobiu z Golubia-Dobrzynia, Rypina, Lipna, Brodnicy, Torunia i innych miejscowości.
+            </p>
+        </section>
+
+        <section class="pageSection pageSection--flex pageSection--papierDlaPisklat">
+            <img class="pageSection__img w-20" src="./img/papier-dla-pisklat-1.png" alt="papier-dla-pisklat-torun" />
+            <img class="pageSection__img w-20" src="./img/papier-dla-pisklat-2.png" alt="papier-dla-pisklat-brodnica" />
+            <img class="pageSection__img w-20" src="./img/papier-dla-pisklat-3.png" alt="papier-dla-pisklat-rypin" />
+            <img class="pageSection__img w-20" src="./img/papier-dla-pisklat-4.png" alt="papier-dla-pisklat-golub-dobrzyn" />
+        </section>
+
+        <section class="pageSection__frame w-100">
+            <h2 class="pageSection__frame__header">
+                Zalety stosowania papieru dla piskląt
+            </h2>
+            <p class="pageSection__frame__text">
+                Hodowcy, którym zależy na satysfakcjonujących przyrostach, wykładają papier dla piskląt wzdłuż automatycznych systemów karmienia i linii pojenia, po czym rozsypują na nim paszę. Dzięki zastosowaniu papieru pisklęta szybko się uczą, gdzie znaleźć poidła z wodą i karmidła z paszą. Ptaki, poruszając się po papierze, powodują hałas, który przyciąga inne pisklaki. W ten sposób mają one ułatwioną drogę do pożywienia i wody. Papier dla piskląt zapewnia również bardzo równą powierzchnię, dzięki czemu poruszanie się jest prostsze niż w przypadku chodzenia po ściółce.
+            </p>
+            <p class="pageSection__frame__text mt-1">
+                Efektem jest większe pobieranie wody i pożywienia i tym samym większe wzrosty u piskląt już w pierwszym tygodniu. Papier sprawia też, że całe stado jest równomiernie rozłożone wzdłuż automatycznego systemu pojenia i karmienia, co z pewnością zwiększa przeżywalność kurczaków, ponieważ wszystkie pisklęta mają możliwość skorzystania z karmideł.
+            </p>
+            <p class="pageSection__frame__text mt-1">
+                Papier dla piskląt ma także inne zalety. Świetnie pochłania wilgoć i zapewnia izolację termiczną. Warto też dodać, że papier ten stanowi bardziej higieniczną powierzchnię niż standardowy papier ściółkowy. Na koniec należy wspomnieć, że papier dla kurcząt jest w pełni ekologiczny – po kilku dniach ulega biodegradacji, co także oszczędza kłopot jego sprzątania.
+            </p>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h5 class="footer__caption mt-3">
+            &copy; 2021 <b>CZP Premium</b> Białkowo Mariusz Szefler. Wszelkie prawa zastrzeżone.
+        </h5>
+        <h5 class="footer__caption">
+            Projekt i wykonanie: <a href="https://skylo.pl">skylo.pl</a>
+        </h5>
+    </footer>
+</div>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+</body>
+</html>
