@@ -1,100 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CZP Premium</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./mobile.css" />
-</head>
-<body>
-<div class="container-fluid">
-    <!-- HEADER -->
-    <header class="topBar d-none d-md-flex">
-        <h3 class="topBar__header">
-            CZP Premium Białkowo - ręczniki ZZ, papier dla piskląt
-        </h3>
-        <h3 class="topBar__header d-none d-xl-block">
-            Białkowo 39A, 87-400 Golub-Dobrzyń
-        </h3>
-        <h3 class="topBar__header d-none d-lg-block">
-            tel. 607 042 741, biuro@czp-premium.pl
-        </h3>
-        <h3 class="topBar__header">
-            Ręczniki ZZ, papier makulaturowy, papier toaletowy, papier do piskląt
-        </h3>
-    </header>
-    <menu class="topMenu">
-        <a class="topMenu__logo" href="./index.html">
-            <img class="topMenu__logo__img" src="./img/czp-logo.png" alt="czp-bialkowo" />
-        </a>
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package czp
+ */
 
-        <ul class="topMenu__list d-none d-md-flex">
-            <li class="topMenu__list__item">
-                <a class="topMenu__list__link" href="#">
-                    Strona główna
-                </a>
-            </li>
-            <li class="topMenu__list__item">
-                <a class="topMenu__list__link" href="#o-firmie">
-                    O firmie
-                </a>
-            </li>
-            <li class="topMenu__list__item">
-                <a class="topMenu__list__link" href="./oferta.html">
-                    Oferta
-                </a>
-            </li>
-            <li class="topMenu__list__item">
-                <a class="topMenu__list__link" href="#">
-                    Kontakt
-                </a>
-            </li>
-        </ul>
-
-        <menu class="topMenu__mobileMenu d-md-none">
-            <button class="topMenu__mobileMenu__close" onclick="closeMenu()">
-                <img class="topMenu__mobileMenu__close__img" src="./img/close.png" alt="zamknij" />
-            </button>
-
-            <a class="topMenu__mobileMenu__logo" href="#">
-                <img class="topMenu__mobileMenu__logo__img" src="./img/czp-logo.png" alt="logo" />
-            </a>
-            <ul class="topMenu__mobileMenu__list">
-                <li class="topMenu__list__item">
-                    <a class="topMenu__list__link" href="#">
-                        Strona główna
-                    </a>
-                </li>
-                <li class="topMenu__list__item">
-                    <a class="topMenu__list__link" href="#o-firmie">
-                        O firmie
-                    </a>
-                </li>
-                <li class="topMenu__list__item">
-                    <a class="topMenu__list__link" href="#">
-                        Oferta
-                    </a>
-                </li>
-                <li class="topMenu__list__item">
-                    <a class="topMenu__list__link" href="#">
-                        Kontakt
-                    </a>
-                </li>
-            </ul>
-        </menu>
-
-        <button class="topMenu__btn d-block d-md-none" onclick="openMenu()">
-            <img class="topMenu__btn__img" src="./img/menu.png" alt="menu" />
-        </button>
-    </menu>
+get_header();
+?>
 
     <!-- LANDING PAGE -->
     <main class="landing">
-        <img class="landing__img" src="./img/reczniki_zz_duze.png" alt="reczniki-zz" />
+        <img class="landing__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/reczniki_zz_duze.png'; ?>" alt="reczniki-zz" />
         <section class="landing__content">
             <h2 class="landing__content__header">
                 O papierze wiemy wszystko!
@@ -114,25 +37,25 @@
         </p>
 
         <section class="section__images">
-            <a class="section__images__link" href="./papier-toaletowy.html">
+            <a class="section__images__link" href="<?php echo get_page_link(get_page_by_title('Papier toaletowy')->ID); ?>">
                 <figure class="section__images__wrapper" data-aos="flip-up">
-                    <img class="section__images__img" src="./img/papier_toaletowy.png" alt="papier-toaletowy" />
+                    <img class="section__images__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/papier_toaletowy.png'; ?>" alt="papier-toaletowy" />
                 </figure>
                 <h3 class="section__images__captions__item" data-aos="fade-up">
                     Papier toaletowy
                 </h3>
             </a>
-            <a class="section__images__link" href="./papier-dla-pisklat.html">
+            <a class="section__images__link" href="<?php echo get_page_link(get_page_by_title('Papier dla piskląt')->ID); ?>">
                 <figure class="section__images__wrapper" data-aos="flip-up">
-                    <img class="section__images__img" src="./img/papier_dla_pisklat.png" alt="papier-dla-pisklat" />
+                    <img class="section__images__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/papier_dla_pisklat.png'; ?>" alt="papier-dla-pisklat" />
                 </figure>
                 <h3 class="section__images__captions__item" data-aos="fade-up">
                     Papier dla piskląt
                 </h3>
             </a>
-            <a class="section__images__link" href="./reczniki-zz.html">
+            <a class="section__images__link" href="<?php echo get_page_link(get_page_by_title('Ręczniki ZZ')->ID); ?>">
                 <figure class="section__images__wrapper" data-aos="flip-up">
-                    <img class="section__images__img" src="./img/reczniki_zz.png" alt="reczniki-zz" />
+                    <img class="section__images__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/reczniki_zz.png'; ?>" alt="reczniki-zz" />
                 </figure>
                 <h3 class="section__images__captions__item" data-aos="fade-up">
                     Ręczniki ZZ
@@ -150,7 +73,7 @@
 
     <section class="section section__icons">
         <section class="section__icons__item">
-            <img class="section__icons__item__icon" src="./img/like.svg" alt="korzystne-warunki" data-aos="zoom-in" />
+            <img class="section__icons__item__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/like.svg'; ?>" alt="korzystne-warunki" data-aos="zoom-in" />
             <h4 class="section__icons__item__header text-center" data-aos="fade-up">
                 Korzystne warunki
             </h4>
@@ -159,7 +82,7 @@
             </p>
         </section>
         <section class="section__icons__item">
-            <img class="section__icons__item__icon" src="./img/correct-symbol.svg" alt="korzystne-warunki" data-aos="zoom-in" />
+            <img class="section__icons__item__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/correct-symbol.svg'; ?>" alt="korzystne-warunki" data-aos="zoom-in" />
             <h4 class="section__icons__item__header text-center" data-aos="fade-up">
                 Kompleksowa oferta
             </h4>
@@ -168,7 +91,7 @@
             </p>
         </section>
         <section class="section__icons__item">
-            <img class="section__icons__item__icon" src="./img/helping.svg" alt="korzystne-warunki" data-aos="zoom-in" />
+            <img class="section__icons__item__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/helping.svg'; ?>" alt="korzystne-warunki" data-aos="zoom-in" />
             <h4 class="section__icons__item__header text-center" data-aos="fade-up">
                 Wsparcie techniczne
             </h4>
@@ -177,7 +100,7 @@
             </p>
         </section>
         <section class="section__icons__item">
-            <img class="section__icons__item__icon" src="./img/people.svg" alt="korzystne-warunki" data-aos="zoom-in" />
+            <img class="section__icons__item__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/people.svg'; ?>" alt="korzystne-warunki" data-aos="zoom-in" />
             <h4 class="section__icons__item__header text-center" data-aos="fade-up">
                 Kontakt z klientem
             </h4>
@@ -205,21 +128,21 @@
         <form class="form" data-aos="fade-up">
             <label class="label">
                 <figure class="label__iconWrapper">
-                    <img class="label__icon" src="./img/user_square.svg" alt="imie-i-nazwisko" />
+                    <img class="label__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/user_square.svg'; ?>" alt="imie-i-nazwisko" />
                 </figure>
                 <input class="input"
                        placeholder="Imię i nazwisko lub nazwa firmy" />
             </label>
             <label class="label">
                 <figure class="label__iconWrapper">
-                    <img class="label__icon" src="./img/phone_outline.svg" alt="numer-telefonu" />
+                    <img class="label__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/people_outline.svg'; ?>" alt="numer-telefonu" />
                 </figure>
                 <input class="input"
                        placeholder="Numer telefonu" />
             </label>
             <label class="label">
                 <figure class="label__iconWrapper">
-                    <img class="label__icon" src="./img/mail.svg" alt="adres-email" />
+                    <img class="label__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/mail.svg'; ?>" alt="adres-email" />
                 </figure>
                 <input class="input"
                        placeholder="Adres email" />
@@ -235,18 +158,6 @@
         </form>
     </section>
 
-    <footer class="footer">
-        <h5 class="footer__caption mt-3">
-            &copy; 2021 <b>CZP Premium</b> Białkowo Mariusz Szefler. Wszelkie prawa zastrzeżone.
-        </h5>
-        <h5 class="footer__caption">
-            Projekt i wykonanie: <a href="https://skylo.pl">skylo.pl</a>
-        </h5>
-    </footer>
-</div>
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./main.js"></script>
-</body>
-</html>
+<?php
+get_footer();
+?>

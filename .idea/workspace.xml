@@ -20,25 +20,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda02b07-73ef-4dfe-a302-e1401b40b84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/information.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/contact.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/correct-symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/czp-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/helping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/information.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/jumbo-rolle-brodnica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/jumbo-rolle-torun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/jumbo-rolle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-makulatura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-makulaturowy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-makulaturowy-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-toaletowy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier-toaletowy-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier_dla_pisklat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/papier_toaletowy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/phone_outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne-brodnica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne-golub-dobrzyn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne-lipno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-zz-biale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-zz-szare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki_zz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/reczniki_zz_duze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/img/user_square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-jumbo-rolle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-kontakt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-oferta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-papier-dla-pisklat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-papier-makulaturowy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-papier-toaletowy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-reczniki-kuchenne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/page-reczniki-zz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/czp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/czp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/czp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumbo-rolle.html" beforeDir="false" afterPath="$PROJECT_DIR$/jumbo-rolle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oferta.html" beforeDir="false" afterPath="$PROJECT_DIR$/oferta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/papier-dla-pisklat.html" beforeDir="false" afterPath="$PROJECT_DIR$/papier-dla-pisklat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/papier-makulaturowy.html" beforeDir="false" afterPath="$PROJECT_DIR$/papier-makulaturowy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/papier-toaletowy.html" beforeDir="false" afterPath="$PROJECT_DIR$/papier-toaletowy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/czp/composer.json</pharConfigPath>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +90,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$USER_HOME$/Downloads/wordpress-5.6 (1)" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1uf6kZmDef5nWAWbWjaLi2U6jKv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,14 +103,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/czp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\czp" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\czp\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp" />
     </key>
@@ -88,7 +134,8 @@
       <workItem from="1625044440809" duration="12095000" />
       <workItem from="1625737369988" duration="42000" />
       <workItem from="1625786749623" duration="3369000" />
-      <workItem from="1625825287330" duration="10383000" />
+      <workItem from="1625825287330" duration="10574000" />
+      <workItem from="1625852521313" duration="2117000" />
     </task>
     <servers />
   </component>
@@ -107,82 +154,8 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625044890593">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625044890593" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1625075132327">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625075132327" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1625044719072">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625044719072" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625850165539">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625850165539" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
