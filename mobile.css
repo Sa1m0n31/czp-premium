@@ -21,6 +21,10 @@
     .landing__content__subheader {
         font-size: 22px;
     }
+
+    .offerContent__item {
+        width: 30%;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -30,6 +34,11 @@
 
     .section__text {
         font-size: 14px;
+    }
+
+    .offerContent__item {
+        width: 32%;
+        padding: 20px;
     }
 }
 
@@ -68,6 +77,10 @@
 
     .topMenu__list__link {
         padding: 0 15px;
+    }
+
+    .offerContent__item {
+        width: 48%;
     }
 }
 
@@ -220,6 +233,28 @@
 
     .topMenu__list__item:hover {
         border-bottom: none;
+    }
+
+    .pageHeader {
+        font-size: 22px;
+        margin: 80px 0 40px;
+    }
+
+    .page {
+        border-top: none;
+    }
+
+    .offerContent__item {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .offerContent__item__header {
+        font-size: 18px;
+    }
+
+    .offerContent__item__btn {
+        font-size: 14px;
     }
 }
 
