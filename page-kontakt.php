@@ -40,6 +40,10 @@ get_header();
             </h4>
         </section>
     </section>
+
+    <section class="map" data-aos="fade-up">
+        <?php echo the_content(); ?>
+    </section>
 </main>
 
 <?php

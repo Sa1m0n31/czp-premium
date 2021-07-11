@@ -261,7 +261,7 @@
 
     .topMenu__mobileMenu__list .topMenu__list__item {
         text-align: center;
-        border-bottom: none;
+        border-bottom: none !important;
     }
 
     .topMenu__mobileMenu__list .topMenu__list__item .topMenu__list__link {
@@ -350,6 +350,20 @@
     #o-firmie {
         padding-top: 100px;
     }
+
+    .section__images__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .label {
+        margin-bottom: 0;
+        border-width: 2px;
+    }
+
+    .form {
+        margin: 90px auto 10px;
+    }
 }
 
 @media(max-width: 576px) {
@@ -414,5 +428,13 @@
 
     .contactSection__header span {
         font-size: 14px;
+    }
+
+    .landing__content {
+        bottom: -90px;
+    }
+
+    #o-firmie {
+        margin-top: 40px;
     }
 }

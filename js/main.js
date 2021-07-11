@@ -63,3 +63,34 @@ AOS.init({
     duration: 600
 });
 
+/* Contact form submission */
+const formConfirmation = () => {
+    const contactForm = document.querySelector(".wpcf7");
+    const confirmation = document.querySelector(".formConfirmation");
+    const inputs = document.querySelectorAll(".input");
+    const textarea = document.querySelector(".textarea");
+
+    contactForm.style.height = "0";
+    contactForm.style.opacity = "0";
+
+    confirmation.style.opacity = "1";
+    confirmation.style.height = "auto";
+    confirmation.style.padding = "150px 0 500px";
+
+    inputs.forEach(item => {
+       item.value = "";
+    });
+    textarea.value = "";
+
+    setTimeout(() => {
+        contactForm.style.height = "auto";
+        contactForm.style.opacity = "1";
+
+        confirmation.style.opacity = "0";
+        confirmation.style.height = "0";
+        confirmation.style.padding = "0 0 0";
+    }, 3000);
+}
+
+document.addEventListener("wpcf7mailfailed", formConfirmation);
+document.addEventListener("wpcf7mailsend", formConfirmation);

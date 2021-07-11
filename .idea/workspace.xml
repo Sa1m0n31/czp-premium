@@ -20,61 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda02b07-73ef-4dfe-a302-e1401b40b84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/czp/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/correct-symbol.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/czp-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/helping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/information.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/jumbo-rolle-brodnica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/jumbo-rolle-torun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/jumbo-rolle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-dla-pisklat-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-makulatura.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-makulaturowy-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-makulaturowy-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-toaletowy-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier-toaletowy-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier_dla_pisklat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/papier_toaletowy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/people.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/phone_outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne-brodnica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne-golub-dobrzyn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne-lipno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-kuchenne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-zz-biale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki-zz-szare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki_zz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/reczniki_zz_duze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/img/user_square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-jumbo-rolle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-kontakt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-oferta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-papier-dla-pisklat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-papier-makulaturowy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-papier-toaletowy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-reczniki-kuchenne.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/page-reczniki-zz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/czp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/czp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/czp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-kontakt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/czp/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -105,17 +65,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/czp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\czp" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\czp\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\img" />
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp" />
     </key>
   </component>
   <component name="RunManager">
@@ -135,7 +96,8 @@
       <workItem from="1625737369988" duration="42000" />
       <workItem from="1625786749623" duration="3369000" />
       <workItem from="1625825287330" duration="10574000" />
-      <workItem from="1625852521313" duration="2117000" />
+      <workItem from="1625852521313" duration="6327000" />
+      <workItem from="1626041427052" duration="3537000" />
     </task>
     <servers />
   </component>

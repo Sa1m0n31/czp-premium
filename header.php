@@ -20,7 +20,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body>
 <?php wp_body_open(); ?>
 <div class="container-fluid">
     <!-- TOP BAR -->
@@ -28,12 +28,15 @@
         <h3 class="topBar__header">
             CZP Premium Białkowo - ręczniki ZZ, papier dla piskląt
         </h3>
+        <div class="topBar__divider d-none d-md-flex"></div>
         <h3 class="topBar__header d-none d-xl-block">
             Białkowo 39A, 87-400 Golub-Dobrzyń
         </h3>
+        <div class="topBar__divider d-none d-xl-block"></div>
         <h3 class="topBar__header d-none d-lg-block">
             tel. 607 042 741, biuro@czp-premium.pl
         </h3>
+        <div class="topBar__divider d-none d-lg-block"></div>
         <h3 class="topBar__header">
             Ręczniki ZZ, papier makulaturowy, papier toaletowy, papier do piskląt
         </h3>
@@ -42,7 +45,7 @@
     <!-- TOP MENU -->
     <menu class="topMenu">
         <a class="topMenu__logo" href="<?php echo get_home_url(); ?>">
-            <img class="topMenu__logo__img" src="./img/czp-logo.png" alt="czp-bialkowo" />
+            <img class="topMenu__logo__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/czp-logo.png'; ?>" alt="czp-bialkowo" />
         </a>
 
         <ul class="topMenu__list d-none d-md-flex">
@@ -52,7 +55,7 @@
                 </a>
             </li>
             <li class="topMenu__list__item">
-                <a class="topMenu__list__link" href="<?php echo get_home_url(); ?>">
+                <a class="topMenu__list__link" href="<?php echo get_home_url() . '#o-firmie'; ?>">
                     O firmie
                 </a>
             </li>
@@ -68,6 +71,7 @@
             </li>
         </ul>
 
+        <!-- MOBILE -->
         <menu class="topMenu__mobileMenu d-md-none">
             <button class="topMenu__mobileMenu__close" onclick="closeMenu()">
                 <img class="topMenu__mobileMenu__close__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/close.png'; ?>" alt="zamknij" />
@@ -82,7 +86,7 @@
                         Strona główna
                     </a>
                 </li>
-                <li class="topMenu__list__item">
+                <li class="topMenu__list__item" onclick="closeMenu()">
                     <a class="topMenu__list__link" href="<?php echo get_home_url() . '#o-firmie'; ?>">
                         O firmie
                     </a>

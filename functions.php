@@ -141,16 +141,17 @@ add_action( 'widgets_init', 'czp_widgets_init' );
  */
 function czp_scripts() {
     /* CSS */
-	wp_enqueue_style( 'czp-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'czp-style', get_stylesheet_directory_uri() . '/mobile.css', array(), _S_VERSION );
+	wp_enqueue_style( 'czp-style', get_stylesheet_uri() . '?n=1', array('aos-css', 'bootstrap'), _S_VERSION );
+	wp_enqueue_style( 'czp-style-mobile', get_stylesheet_directory_uri() . '/mobile.css?n=1', array(), _S_VERSION );
 
 	/* JS */
-	wp_enqueue_script( 'czp-navigation', get_template_directory_uri() . '/js/main.js', array('bootstrap-cdn-js', 'aos-js'), _S_VERSION, true );
+	wp_enqueue_script( 'czp-navigation', get_template_directory_uri() . '/js/main.js', array('aos-js'), _S_VERSION, true );
 
 	/* External libraries */
     /* 1 - Bootstrap */
-    wp_enqueue_style( 'bootstrap-cdn-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
-    wp_enqueue_script( 'bootstrap-cdn-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' );
+//    wp_enqueue_style( 'bootstrap-cdn-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', array(), 1.0 );
+//    wp_enqueue_script( 'bootstrap-cdn-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array(), 1.0 );
+    wp_enqueue_style( 'bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' );
 
     /* 2 - AOS */
     wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
@@ -161,6 +162,20 @@ function czp_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'czp_scripts' );
+
+//function pwwp_enqueue_my_scripts() {
+//    // jQuery is stated as a dependancy of bootstrap-js - it will be loaded by WordPress before the BS scripts
+//    wp_enqueue_script( 'bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), true); // all the bootstrap javascript goodness
+//}
+//add_action('wp_enqueue_scripts', 'pwwp_enqueue_my_scripts');
+//
+//function pwwp_enqueue_my_styles() {
+//    wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
+//
+//    // this will add the stylesheet from it's default theme location if your theme doesn't already
+//    //wp_enqueue_style( 'my-style', get_template_directory_uri() . '/style.css');
+//}
+//add_action('wp_enqueue_scripts', 'pwwp_enqueue_my_styles');
 
 /**
  * Implement the Custom Header feature.

@@ -125,37 +125,49 @@ get_header();
             Masz pytania? Skontaktuj się z nami używając poniższego <b>formularza kontaktowego</b>.
         </h3>
 
-        <form class="form" data-aos="fade-up">
-            <label class="label">
-                <figure class="label__iconWrapper">
-                    <img class="label__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/user_square.svg'; ?>" alt="imie-i-nazwisko" />
-                </figure>
-                <input class="input"
-                       placeholder="Imię i nazwisko lub nazwa firmy" />
-            </label>
-            <label class="label">
-                <figure class="label__iconWrapper">
-                    <img class="label__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/people_outline.svg'; ?>" alt="numer-telefonu" />
-                </figure>
-                <input class="input"
-                       placeholder="Numer telefonu" />
-            </label>
-            <label class="label">
-                <figure class="label__iconWrapper">
-                    <img class="label__icon" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/mail.svg'; ?>" alt="adres-email" />
-                </figure>
-                <input class="input"
-                       placeholder="Adres email" />
-            </label>
-            <label class="label">
-                <textarea class="textarea"
-                          placeholder="Treść wiadomości (opcjonalnie)"
-                ></textarea>
-            </label>
-            <button class="button button--submit">
-                Wyślij formularz
-            </button>
-        </form>
+        <section class="form" data-aos="fade-up">
+
+            <?php echo do_shortcode('[contact-form-7 id="25" title="Formularz 1"]'); ?>
+
+            <section class="formConfirmation">
+                <h3 class="formConfirmation__header">
+                    Dziękujemy za przesłanie formularza!
+                </h3>
+                <h4 class="formConfirmation__subheader">
+                    Odpowiemy najszybciej jak to możliwe.
+                </h4>
+            </section>
+
+<!--            <label class="label">-->
+<!--                <figure class="label__iconWrapper">-->
+<!--                    <img class="label__icon" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/user_square.svg'; ?><!--" alt="imie-i-nazwisko" />-->
+<!--                </figure>-->
+<!--                <input class="input"-->
+<!--                       placeholder="Imię i nazwisko lub nazwa firmy" />-->
+<!--            </label>-->
+<!--            <label class="label">-->
+<!--                <figure class="label__iconWrapper">-->
+<!--                    <img class="label__icon" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/phone_outline.svg'; ?><!--" alt="numer-telefonu" />-->
+<!--                </figure>-->
+<!--                <input class="input"-->
+<!--                       placeholder="Numer telefonu" />-->
+<!--            </label>-->
+<!--            <label class="label">-->
+<!--                <figure class="label__iconWrapper">-->
+<!--                    <img class="label__icon" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/mail.svg'; ?><!--" alt="adres-email" />-->
+<!--                </figure>-->
+<!--                <input class="input"-->
+<!--                       placeholder="Adres email" />-->
+<!--            </label>-->
+<!--            <label class="label">-->
+<!--                <textarea class="textarea"-->
+<!--                          placeholder="Treść wiadomości (opcjonalnie)"-->
+<!--                ></textarea>-->
+<!--            </label>-->
+<!--            <button class="button button--submit">-->
+<!--                Wyślij formularz-->
+<!--            </button>-->
+        </section>
     </section>
 
 <?php
