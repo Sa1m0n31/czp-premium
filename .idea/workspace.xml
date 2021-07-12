@@ -21,13 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bda02b07-73ef-4dfe-a302-e1401b40b84c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-kontakt.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-kontakt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-oferta.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-oferta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-reczniki-zz.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-reczniki-zz.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,8 @@
       <workItem from="1625786749623" duration="3369000" />
       <workItem from="1625825287330" duration="10574000" />
       <workItem from="1625852521313" duration="6327000" />
-      <workItem from="1626041427052" duration="3537000" />
+      <workItem from="1626041427052" duration="4359000" />
+      <workItem from="1626080486426" duration="1623000" />
     </task>
     <servers />
   </component>

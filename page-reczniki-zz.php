@@ -40,19 +40,19 @@ get_header();
 
         <section class="pageSection__frame" data-aos="zoom-in">
             <h3 class="pageSection__frame__header">
-                Czym są ręczniki ZZ?
+                Dlaczego warto kupić ręcznki ZZ?
             </h3>
             <p class="pageSection__frame__text">
-                <b>Ręczniki ZZ</b> są najchętniej wybieranym produktem do osuszania dłoni oraz twarzy po umyciu. Należą do najbardziej higienicznych produktów tego typu. Ręcznik ZZ bez problemu znajdzie swoje zastosowanie zarówno w obiektach usługowych czy handlowych, jak i w gospodarstwach domowych.
+                Ręcznik papierowy zz, zwany również jako ręcznik Zig Zag (ręczniki zachodzą na siebie tworząc literę Z) to najczęściej kupowany rodzaj ręcznika - idealny do toalet o małej intensywności użytkowania. Można z niego korzystać bez dozownika, a średnie zużycie na osuszenie rąk to 3 - 4 listki.
             </p>
         </section>
 
         <section class="pageSection__frame" data-aos="zoom-in">
             <h3 class="pageSection__frame__header">
-                Czym są ręczniki ZZ?
+                Dlaczego CZP Premium?
             </h3>
             <p class="pageSection__frame__text">
-                <b>Ręczniki ZZ</b> są najchętniej wybieranym produktem do osuszania dłoni oraz twarzy po umyciu. Należą do najbardziej higienicznych produktów tego typu. Ręcznik ZZ bez problemu znajdzie swoje zastosowanie zarówno w obiektach usługowych czy handlowych, jak i w gospodarstwach domowych.
+                Posiadamy wieloletnie doświadczenie w produkcji ręczników zz. Współpracujemy z Klientami z okolic Torunia, Bydgoszczy, Brodnicy i Grudziądza, ale również spoza województwa kujawsko-pommorskiego. Ręczniki ZZ od CZP Premium to stuprocentowa gwarancja satysfakcji!
             </p>
         </section>
     </section>

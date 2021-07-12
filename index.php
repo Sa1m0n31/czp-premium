@@ -105,7 +105,7 @@ get_header();
                 Kontakt z klientem
             </h4>
             <p class="section__icons__item__text text-center" data-aos="fade-up">
-                Doświadczenie i znajomość branży papierniczej sprawiają, że możemy służyć fachowym doradztwem i tym samym zaspokoić wymagania klientów.
+                Staramy się każdego klienta traktować indywidualnie, ponieważ zależy nam na długofalowych relacjach i spełnieniu wszystkich oczekiwań.
             </p>
         </section>
     </section>
@@ -137,36 +137,6 @@ get_header();
                     Odpowiemy najszybciej jak to możliwe.
                 </h4>
             </section>
-
-<!--            <label class="label">-->
-<!--                <figure class="label__iconWrapper">-->
-<!--                    <img class="label__icon" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/user_square.svg'; ?><!--" alt="imie-i-nazwisko" />-->
-<!--                </figure>-->
-<!--                <input class="input"-->
-<!--                       placeholder="Imię i nazwisko lub nazwa firmy" />-->
-<!--            </label>-->
-<!--            <label class="label">-->
-<!--                <figure class="label__iconWrapper">-->
-<!--                    <img class="label__icon" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/phone_outline.svg'; ?><!--" alt="numer-telefonu" />-->
-<!--                </figure>-->
-<!--                <input class="input"-->
-<!--                       placeholder="Numer telefonu" />-->
-<!--            </label>-->
-<!--            <label class="label">-->
-<!--                <figure class="label__iconWrapper">-->
-<!--                    <img class="label__icon" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/mail.svg'; ?><!--" alt="adres-email" />-->
-<!--                </figure>-->
-<!--                <input class="input"-->
-<!--                       placeholder="Adres email" />-->
-<!--            </label>-->
-<!--            <label class="label">-->
-<!--                <textarea class="textarea"-->
-<!--                          placeholder="Treść wiadomości (opcjonalnie)"-->
-<!--                ></textarea>-->
-<!--            </label>-->
-<!--            <button class="button button--submit">-->
-<!--                Wyślij formularz-->
-<!--            </button>-->
         </section>
     </section>
 

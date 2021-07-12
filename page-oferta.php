@@ -62,7 +62,7 @@ get_header();
                 Papier makulaturowy
             </h2>
             <p class="offerContent__item__text">
-                Nasze ręczniki ZZ o listkach w rozmiarze 25 x 23 cm są dopasowane do popularnych na rynku podajników do ręczników.
+                Papier toaletowy niezbędny jest w każdym miejscu. Możne on być wykonany z celulozy lub makulatury.
             </p>
             <button class="button offerContent__item__btn">
                 Więcej informacji
@@ -77,9 +77,9 @@ get_header();
                 Jumbo rolle
             </h2>
             <p class="offerContent__item__text">
-                Nasze ręczniki ZZ o listkach w rozmiarze 25 x 23 cm są dopasowane do popularnych na rynku podajników do ręczników.
+                Tam gdzie szary szary papier toaletowy nie wystarczy i liczy się przede wszystkim jego duża ilość, niezbędne będą Jumbo rolle.
             </p>
-            <button class="button offerContent__item__btn">
+                <button class="button offerContent__item__btn">
                 Więcej informacji
             </button>
         </a>
@@ -92,7 +92,7 @@ get_header();
                 Ręczniki kuchenne
             </h2>
             <p class="offerContent__item__text">
-                Nasze ręczniki ZZ o listkach w rozmiarze 25 x 23 cm są dopasowane do popularnych na rynku podajników do ręczników.
+                Papierowe ręczniki kuchenne to produkt niezbędny w każdej kuchni, czy to prywatnej, czy szkolnej lub firmowej.
             </p>
             <button class="button offerContent__item__btn">
                 Więcej informacji
