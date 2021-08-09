@@ -17,15 +17,53 @@ get_header();
 
     <!-- LANDING PAGE -->
     <main class="landing">
-        <img class="landing__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/reczniki_zz_duze.png'; ?>" alt="reczniki-zz" />
-        <section class="landing__content">
-            <h2 class="landing__content__header">
-                O papierze wiemy wszystko!
-            </h2>
-            <h1 class="landing__content__subheader">
-                Ręczniki ZZ, papier toaletowy, papier dla piskląt
-            </h1>
-        </section>
+        <!-- LEADER -->
+        <aside class="loader">
+            <img class="topMenu__mobileMenu__logo__img loader__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/czp-logo.png'; ?>" alt="logo" />
+        </aside>
+
+        <!-- SLIDER -->
+        <div class="landing__slider">
+            <div class="landing__item">
+                <figure class="landing__item__imgWrapper">
+                    <img id="slider1" class="landing__img" onload="sliderLoaded()" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/reczniki_zz_duze.png'; ?>" alt="reczniki-zz" />
+                </figure>
+                <section class="landing__content">
+                    <h2 class="landing__content__header">
+                        O papierze wiemy wszystko!
+                    </h2>
+                    <h1 class="landing__content__subheader">
+                        Ręczniki ZZ, papier toaletowy, papier dla piskląt
+                    </h1>
+                </section>
+            </div>
+            <div class="landing__item">
+                <figure class="landing__item__imgWrapper">
+                    <img id="slider2" class="landing__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/pisklaki_duze.jpg'; ?>" alt="reczniki-zz" />
+                </figure>
+                <section class="landing__content">
+                    <h2 class="landing__content__header">
+                        Papier dla piskląt
+                    </h2>
+                    <h1 class="landing__content__subheader">
+                        Zaopatrujemy największe fermy drobiu w regionie
+                    </h1>
+                </section>
+            </div>
+            <div class="landing__item">
+                <figure class="landing__item__imgWrapper">
+                    <img id="slider3" class="landing__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/papier_duze.jpg'; ?>" alt="reczniki-zz" />
+                </figure>
+                <section class="landing__content">
+                    <h2 class="landing__content__header">
+                        Lata doświadczenia, dziesiątki zadowolonych Klientów
+                    </h2>
+                    <h1 class="landing__content__subheader">
+                        Ręczniki ZZ, papier toaletowy, papier dla piskląt
+                    </h1>
+                </section>
+            </div>
+        </div>
     </main>
 
     <section class="section" id="o-firmie">

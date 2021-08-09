@@ -23,7 +23,7 @@ get_header();
             </h3>
 
             <h3 class="pageSection__subheader">
-                zielonego, jednowarstwowego
+                zielonego
             </h3>
         </section>
     </section>
@@ -43,7 +43,7 @@ get_header();
                 Dlaczego warto kupić ręcznki ZZ?
             </h3>
             <p class="pageSection__frame__text">
-                Ręcznik papierowy zz, zwany również jako ręcznik Zig Zag (ręczniki zachodzą na siebie tworząc literę Z) to najczęściej kupowany rodzaj ręcznika - idealny do toalet o małej intensywności użytkowania. Można z niego korzystać bez dozownika, a średnie zużycie na osuszenie rąk to 3 - 4 listki.
+                Ręcznik papierowy zz, zwany również jako ręcznik Zig Zag (ręczniki zachodzą na siebie tworząc literę Z) to najczęściej kupowany rodzaj ręcznika - <b>idealny do toalet o małej intensywności użytkowania</b>. Można z niego korzystać bez dozownika, a średnie zużycie na osuszenie rąk to 3 - 4 listki.
             </p>
         </section>
 
@@ -52,7 +52,7 @@ get_header();
                 Dlaczego CZP Premium?
             </h3>
             <p class="pageSection__frame__text">
-                Posiadamy wieloletnie doświadczenie w produkcji ręczników zz. Współpracujemy z Klientami z okolic Torunia, Bydgoszczy, Brodnicy i Grudziądza, ale również spoza województwa kujawsko-pommorskiego. Ręczniki ZZ od CZP Premium to stuprocentowa gwarancja satysfakcji!
+                Posiadamy wieloletnie doświadczenie w produkcji ręczników zz. Współpracujemy z Klientami z okolic Torunia, Bydgoszczy, Brodnicy i Grudziądza, ale również spoza województwa kujawsko-pommorskiego. Oferujemy ręczniki ZZ w opakowaniach zawierających <b>4000 listków</b>, o wadze <b>35-40</b> gramów.
             </p>
         </section>
     </section>

@@ -10,20 +10,20 @@ get_header();
 
     <section class="pageSection pageSection--narrow" data-aos="fade-up">
         <h2 class="pageSection__header">
-            Ofertujemy <b>papier toaletowy celulozowy</b>
+            Ofertujemy <b>papier toaletowy</b>
         </h2>
 
         <section class="pageSection__headers">
             <h3 class="pageSection__subheader">
-                w kolorze białym
+                biały
             </h3>
 
             <h3 class="pageSection__subheader pageSection__subheader--low">
-                dwuwarstwowy
+                recyklingowy
             </h3>
 
             <h3 class="pageSection__subheader">
-                trzywarstwowy
+                celulozowy
             </h3>
         </section>
     </section>
@@ -31,10 +31,10 @@ get_header();
     <section class="pageSection pageSection--flex">
         <section class="pageSection__frame" data-aos="zoom-in">
             <h3 class="pageSection__frame__header">
-                Czym jest papier toaletowy celulozowy?
+                Dlaczego my?
             </h3>
             <p class="pageSection__frame__text">
-                <b>Ręczniki ZZ</b> są najchętniej wybieranym produktem do osuszania dłoni oraz twarzy po umyciu. Należą do najbardziej higienicznych produktów tego typu. Ręcznik ZZ bez problemu znajdzie swoje zastosowanie zarówno w obiektach usługowych czy handlowych, jak i w gospodarstwach domowych.
+                Od kilku lat zaopatrujemy w papier toaletowy kilkadziesiąt okolicznych przedsiębiorstw. Posiadamy w swojej ofercie papier toaletowy <b>biały</b> (65% lub 75% białości), <b>recyklingowy</b> lub <b>celulozowy</b> (100% celulozy).
             </p>
         </section>
 
@@ -52,7 +52,7 @@ get_header();
                 Nasz papier to gwarancja jakości
             </h3>
             <p class="pageSection__frame__text">
-                Papier toaletowy celulozowy to produkt o najwyższej jakości dla wymagających klientów
+                Papier toaletowy celulozowy to produkt o najwyższej jakości dla wymagających klientów, Obsługujemy dostawy papieru zarówno <b>dla gospodarstw domowych, jak i większy zakładów pracy.</b>
             </p>
         </section>
     </section>

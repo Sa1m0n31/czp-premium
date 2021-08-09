@@ -1,3 +1,65 @@
+/* Siema carousel in hero section */
+if(document.querySelector(".landing")) {
+    const heroCarousel = new Siema({
+        selector: ".landing__slider",
+        perPage: 1,
+        loop: true,
+        draggable: false
+    });
+
+    const scaleSliderImg = (current) => {
+        let img, imgNormal1, imgNormal2;
+        switch(current) {
+            case 3:
+                img = document.querySelectorAll("#slider1");
+                imgNormal1 = document.querySelectorAll("#slider2");
+                imgNormal2 = document.querySelectorAll("#slider3");
+                break;
+            case 1:
+                img = document.querySelectorAll("#slider2");
+                imgNormal1 = document.querySelectorAll("#slider1");
+                imgNormal2 = document.querySelectorAll("#slider3");
+                break;
+            case 2:
+                img = document.querySelectorAll("#slider3");
+                imgNormal1 = document.querySelectorAll("#slider2");
+                imgNormal2 = document.querySelectorAll("#slider1");
+                break;
+            default:
+                break;
+        }
+
+        img.forEach(item => {
+            item.style.transform = "scale(1.2)";
+        });
+        imgNormal1.forEach(item => {
+            item.style.transform = "scale(1)";
+        });
+        imgNormal2.forEach(item => {
+            item.style.transform = "scale(1)";
+        })
+    }
+
+    /* Siema carousel animation */
+    scaleSliderImg(3);
+    setInterval(() => {
+        scaleSliderImg(heroCarousel.currentSlide+1);
+        heroCarousel.next();
+    }, 5000);
+}
+
+const sliderLoaded = () => {
+    const loader = document.querySelector(".loader");
+    const landing = document.querySelector(".landing__slider");
+
+    loader.style.opacity = "0";
+    landing.style.opacity = "1";
+
+    setTimeout(() => {
+        loader.style.display = "none";
+    }, 1000);
+}
+
 /* Mobile menu */
 const openMenu = () => {
     const menu = document.querySelector(".topMenu__mobileMenu");

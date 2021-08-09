@@ -39,7 +39,7 @@ get_header();
 
     <section class="pageSection pageSection--flex">
         <img class="pageSection__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/jumbo-rolle-torun.png'; ?>" alt="jumbo-rolle-torun" data-aos="zoom-in" />
-        <img class="pageSection__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/jumbo-rolle-brodnica.png'; ?>" alt="jumbo-rolle-brodnica" data-aos="zoom-in" />
+        <img class="pageSection__img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/jumbo-rolle-brodnica.jpg'; ?>" alt="jumbo-rolle-brodnica" data-aos="zoom-in" />
     </section>
 
     <section class="pageSection__frame w-100" data-aos="zoom-in">

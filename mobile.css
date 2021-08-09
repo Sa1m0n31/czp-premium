@@ -39,6 +39,10 @@
     .pageSection__frame {
         width: 31%;
     }
+
+    .landing__img {
+        min-height: 0;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -191,15 +195,29 @@
 
     .landing {
         margin-top: 50px;
+        padding: 0;
+        background: transparent;
+    }
+
+    .landing__item {
+        height: auto;
+    }
+
+    .landing__item__imgWrapper {
+        width: 100%;
     }
 
     .landing__img {
-        width: 100%;
+        min-width: 100%;
+        width: auto;
+        height: 200px;
     }
 
     .landing__content {
         padding: 20px 10px;
         width: 70%;
+        left: 50%;
+        display: none !important;
     }
 
     .landing__content__header {
@@ -253,6 +271,9 @@
 
     .topMenu__mobileMenu__logo {
         margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .topMenu__mobileMenu__list {
@@ -348,7 +369,7 @@
     }
 
     #o-firmie {
-        padding-top: 100px;
+        padding-top: 0;
     }
 
     .section__images__img {
@@ -363,6 +384,11 @@
 
     .form {
         margin: 90px auto 10px;
+    }
+
+    .landing__img {
+        width: 100vw;
+        min-width: 0;
     }
 }
 

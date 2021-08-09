@@ -20,10 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda02b07-73ef-4dfe-a302-e1401b40b84c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/jumbo-rolle-brodnica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/papier_duze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pisklaki_duze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/siema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-oferta.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-oferta.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-jumbo-rolle.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-jumbo-rolle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-papier-toaletowy.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-papier-toaletowy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-reczniki-zz.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-reczniki-zz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +70,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../skylo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -69,10 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\img" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\czp" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\czp\js" />
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\czp\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +104,11 @@
       <workItem from="1625825287330" duration="10574000" />
       <workItem from="1625852521313" duration="6327000" />
       <workItem from="1626041427052" duration="4359000" />
-      <workItem from="1626080486426" duration="1623000" />
+      <workItem from="1626080486426" duration="2166000" />
+      <workItem from="1626086695075" duration="787000" />
+      <workItem from="1626089565615" duration="33000" />
+      <workItem from="1626103135979" duration="15000" />
+      <workItem from="1628449294517" duration="11887000" />
     </task>
     <servers />
   </component>

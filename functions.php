@@ -145,7 +145,7 @@ function czp_scripts() {
 	wp_enqueue_style( 'czp-style-mobile', get_stylesheet_directory_uri() . '/mobile.css?n=1', array(), _S_VERSION );
 
 	/* JS */
-	wp_enqueue_script( 'czp-navigation', get_template_directory_uri() . '/js/main.js', array('aos-js'), _S_VERSION, true );
+	wp_enqueue_script( 'czp-navigation', get_template_directory_uri() . '/js/main.js', array('aos-js', 'siema-js'), _S_VERSION, true );
 
 	/* External libraries */
     /* 1 - Bootstrap */
@@ -156,6 +156,9 @@ function czp_scripts() {
     /* 2 - AOS */
     wp_enqueue_script('aos-js', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
     wp_enqueue_style('aos-css', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
+
+    /* 3 - Siema.js */
+    wp_enqueue_script('siema-js', get_stylesheet_directory_uri() . '/js/siema.js', array(), 1.0, true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
